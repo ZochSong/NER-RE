@@ -1,7 +1,7 @@
 [project]
 name = "nlp"
 version = "0.1.0"
-description = "Add your description here"
+description = "NER-RE Knowledge Extraction System based on BERT"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -9,4 +9,8 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "torch==2.3.0",
     "transformers>=4.57.3",
+    "joblib>=1.3.0"
+]
+gpu = [
+    "torch==2.3.0+cu118",
 ]
