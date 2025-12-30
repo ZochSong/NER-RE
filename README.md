@@ -31,12 +31,10 @@
 ```bash
 # 1. 克隆项目(或进入现有项目目录)
 cd "项目路径/xxx"
+git clone https://github.com/ZochSong/NER-RE.git
 
 # 2. 安装uv (如果未安装)
-# Windows PowerShell
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-# Linux/macOS
-curl -LsSf https://astral.sh/uv/install.sh | sh
+pip install uv
 
 # 3. 一键安装所有依赖
 uv sync
