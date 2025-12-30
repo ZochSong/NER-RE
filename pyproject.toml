@@ -1,0 +1,12 @@
+[project]
+name = "nlp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy<2.0",
+    "scikit-learn>=1.7.2",
+    "torch==2.3.0",
+    "transformers>=4.57.3",
+]
