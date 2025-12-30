@@ -37,6 +37,8 @@ git clone https://github.com/ZochSong/NER-RE.git
 pip install uv
 
 # 3. 一键安装所有依赖
+uv init
+uv venv
 uv sync
 
 # 4. 激活虚拟环境
